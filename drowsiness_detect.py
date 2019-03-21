@@ -28,6 +28,9 @@ class VideoCamera(object):
     #COunts no. of consecutuve frames below threshold value
     COUNTER = 0
 
+    #alert constant
+    ALERT = 0
+
     #Load face cascade which will be used to draw a rectangle around detected faces.
     face_cascade = cv2.CascadeClassifier("haarcascades/haarcascade_frontalface_default.xml")
 
